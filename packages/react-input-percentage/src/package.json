@@ -1,0 +1,31 @@
+{
+	"name": "react-input-percentage",
+	"version": "1.0.0",
+	"description": "An input control built with and for ReactJS",
+	"keywords": [
+		"input",
+		"react",
+		"react-component",
+		"form",
+		"ui",
+		"percentage"
+	],
+	"main": "dist/react-input-percentage.cjs.js",
+	"module": "dist/react-input-percentage.esm.js",
+	"types": "dist/react-input-percentage.cjs.d.ts",
+	"sideEffects": false,
+	"author": "Fernando del Valle",
+	"license": "GNU GPL v3",
+	"repository": "https://github.com/fmdelvalle/react-input-percentage",
+	"devDependencies": {
+		"react": "^16.8.0 || ^17.0.0",
+		"react-dom": "^16.8.0 || ^17.0.0"
+	},
+	"dependencies": {
+		"@babel/runtime": "^7.12.0"
+	},
+	"files": {
+		"src",
+		"dist"
+	}
+}
