@@ -31,6 +31,7 @@ Then use it in your app:
 ```js
 import React from 'react';
 import InputPercentage from 'react-input-percentage';
+import "react-input-percentage/dist/react-input-percentage.cjs.css';
 
 class App extends React.Component {
   state = {
@@ -59,6 +60,7 @@ class App extends React.Component {
 ```js
 import React, { useState } from 'react';
 import InputPercentage from 'react-input-percentage';
+import "react-input-percentage/dist/react-input-percentage.cjs.css';
 
 export default function App() {
   const [value, setValue] = useState(null);

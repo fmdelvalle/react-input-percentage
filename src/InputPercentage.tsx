@@ -1,6 +1,6 @@
 import React, {useCallback, useState} from 'react';
 
-import './css/InputPercentage.css';
+import './css/input-percentage.module.css';
 
 type InputPercentageProps = {
     value: string | null,   // Something like 99.99%
